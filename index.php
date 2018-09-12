@@ -15,8 +15,8 @@
 
 </head>
 
-<body id="bdMainSite" class="noJS" style="font-size:93.8%">
-  <div id="ContentPlaceHolder1_mainbody" style="transform: none;">
+<body style="font-size:93.8%">
+  <div style="transform: none;">
     <div id="wrapper" style="transform: none;">
       <?php 
         include 'layouts/partials/header.php'; 
@@ -28,43 +28,54 @@
         
         <div class="m-5">
           <span style="color:#2158af; float: right">* Rates in INR (Excludes GST). | Contact: instruments@niperahm.ac.in</span>
+          
           <?php include 'layouts/partials/sidebar.php'; ?>
 
           <div class="leftContent">
             <div class="table-responsive">
-              <table class="table" style="text-align: center">
-                <thead class="thead-dark">
+              <table class="table table-striped" style="text-align: left">
+                <thead class="thead-dark" >
                   <tr>
-                    <th colspan="6">List of Instruments in NIPER-A</th>
+                    <th colspan="6" style="text-align:center">List of Instruments in NIPER-A</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td style="width:4%"><b>SN</b></td>
+                    <td style="width:8%"><b>#</b></td>
                     <td><b>Instrument</b></td>
                     <td style="width:30%"><b>Facility</b></td>
-                    <td style="width:20%"><b>Charges for Industries</b></td>
-                    <td style="width:20%"><b>Charges for Institues</b></td>
+                    <td style="width:18%"><b>Charges for Industries</b></td>
+                    <td style="width:18%"><b>Charges for Institues</b></td>
                     <td><b>Remarks</b></td>
                   </tr>
+
                   <tr>
-                    <td style="width:4%">1</td>
-                    <td>LC-MS-QTOF</td>
-                    <td style="width:30%; ">
-                      MS+VE<br>
-                      MS-VE<br>
-                      HR-MS<br>
-                      MS-MS<br>
-                      HRMS-MS<br>
+                    <td style="width:8%">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input"><b>1</b>
+                        </label>
+                      </div>
+    
                     </td>
-                    <td style="width:20%">
+                    <td>LC-MS-QTOF</td>
+                    <td style="width:30%;">
+                      <ul>
+                        <li>MS+VE</li>
+                        <li>MS-VE</li>
+                        <li>HR-MS</li>
+                        <li>MS-MS</li>
+                        <li>HRMS-MS</li>
+                      </ul>
+                    </td>
+                    <td style="width:18%">
                       4500<br>
                       4500<br>
                       5500<br>
                       8500<br>
                       10000<br>
                     </td>
-                    <td style="width:20%">
+                    <td style="width:18%">
                       2250<br>
                       2250<br>
                       2750<br>
@@ -81,26 +92,6 @@
                   </tr>
                   </tr>
                   
-                  <tr>
-                    <td style="width:4%">2</td>
-                    <td>HPLC</td>
-                    <td style="width:30%; ">
-                      Qualitative Analysis (max 3 run)<br>
-                      Quantitative Analysis<br>
-                    </td>
-                    <td style="width:20%">
-                      3500<br>
-                      1500<br>
-                    </td>
-                    <td style="width:20%">
-                      1750<br>
-                      750<br>
-                    </td>
-                    <td>
-                      per run<br>
-                      per run<br>
-                    </td>
-                  </tr>
                 
                 </tbody>
               </table>
@@ -109,6 +100,28 @@
         </div>
       </div>
       <br><br>
+      <br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
 
       <div id="footer">
         <div class="container">
