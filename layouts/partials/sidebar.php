@@ -14,6 +14,9 @@
       <li>
         <a href='#' target='_self' title='Instrument List and Charges' ><i class="fa fa-industry pr-2"></i> Industries</a>
       </li>
+      <li>
+        <a href='#' target='_self' title='Instrument List and Charges' ><i class="fa fa-lock pr-2"></i> NIPER Admin</a>
+      </li>
     </ul> 
     <br style='clear: left' />
   </div>
