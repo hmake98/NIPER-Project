@@ -3,7 +3,7 @@
     <span class='heading'>Instrument Facility</span>
     <ul id='menuLeft' class='pageLink'>
       <li>
-        <a href='#' target='_self' title='Instrument List and Charges' ><i class="fa fa-flask pr-2"></i> Instrument List and Charges</a>
+        <a href='instrumentlistandcharges.php' target='_self' title='Instrument List and Charges' ><i class="fa fa-flask pr-2"></i> Instrument List and Charges</a>
       </li>
       <li>
         <a href='#' target='_self' title='Instrument List and Charges' ><i class="fa fa-graduation-cap pr-2"></i> NIPER Personnel</a>
@@ -15,7 +15,7 @@
         <a href='#' target='_self' title='Instrument List and Charges' ><i class="fa fa-industry pr-2"></i> Industries</a>
       </li>
       <li>
-        <a href='#' target='_self' title='Instrument List and Charges' ><i class="fa fa-lock pr-2"></i> NIPER Admin</a>
+        <a href='niper-admin.php' target='_self' title='Niper Admin' ><i class="fa fa-lock pr-2"></i> NIPER Admin</a>
       </li>
     </ul> 
     <br style='clear: left' />
