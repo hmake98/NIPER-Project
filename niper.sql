@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.0.1
+-- version 4.8.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 14, 2018 at 07:39 PM
--- Server version: 10.1.31-MariaDB
--- PHP Version: 7.2.4
+-- Generation Time: Sep 15, 2018 at 03:26 AM
+-- Server version: 10.1.34-MariaDB
+-- PHP Version: 7.0.31
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -77,7 +77,33 @@ CREATE TABLE `instruments` (
 
 INSERT INTO `instruments` (`id`, `instrument`, `admin_id`) VALUES
 (1, 'LC-MS-QTOF', 1),
-(2, 'HPLC', 1);
+(2, 'HPLC', 1),
+(3, 'FTIR', 1),
+(4, 'ATR', 1),
+(5, 'SEMI-PREP HPLC	', 1),
+(6, 'GC', 1),
+(7, 'POLARIMETER	\r\n', 1),
+(8, 'DSC', 1),
+(9, 'TGA', 1),
+(10, 'POROSIMETER	', 1),
+(11, 'RT-PCR	\r\n', 1),
+(12, 'TEXTURE ANALYZER	', 1),
+(13, 'UV- VISIBLE SPECTROSCOPY	\r\n', 1),
+(14, 'GPC', 1),
+(15, 'FACS	\r\n', 1),
+(16, 'CONFOCAL MICROSCOPE	\r\n', 1),
+(17, 'FLASH CHROMATOGRAPHY	\r\n', 1),
+(18, 'INVERTED MICROSCOPE	\r\n', 1),
+(19, 'HOTSTAGE MICROSCOPE	', 1),
+(20, 'AUTOCOATER	', 1),
+(21, 'STABILITY CHAMBER	', 1),
+(22, 'RHEOMETER', 1),
+(23, 'ZETASIZER', 1),
+(24, 'ULTRA CENTRIFUGE	', 1),
+(25, 'BIO ANALYZER	', 1),
+(26, 'MAGNETOMETER', 1),
+(27, 'RAPID MIXER GRANULATOR	', 1),
+(28, 'POTENTIOSTAT- GALVANOSTAT (PGSTAT)	\r\n', 1);
 
 --
 -- Indexes for dumped tables
@@ -123,7 +149,7 @@ ALTER TABLE `facilities`
 -- AUTO_INCREMENT for table `instruments`
 --
 ALTER TABLE `instruments`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
 -- Constraints for dumped tables
